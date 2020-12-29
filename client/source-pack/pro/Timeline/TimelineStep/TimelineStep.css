@@ -1,0 +1,11 @@
+.stepper.timeline li .step-content.hoverable {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px !important;
+}
+
+.stepper.timeline li .step-content.hoverable:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.stepper-vertical li .step-content {
+  margin-left: 0;
+}

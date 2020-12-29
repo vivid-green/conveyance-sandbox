@@ -1,0 +1,45 @@
+.text-ellipsis-input,
+.text-ellipsis-label {
+  text-overflow: ellipsis;
+}
+
+.text-ellipsis-label {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.autocomplete-btn-svg svg {
+  fill: #4285f4 !important;
+}
+
+.mdb-autocomplete-no-opacity {
+  opacity: 0;
+}
+
+.mdb-autocomplete-opacity {
+  transition: 2s ease-in-out;
+  opacity: 1;
+}
+
+.opacity {
+  opacity: 1 !important;
+  pointer-events: auto;
+}
+
+.my-node-enter {
+  opacity: 0;
+}
+
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+.my-node-exit {
+  opacity: 1;
+}
+
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
